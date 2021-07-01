@@ -15,6 +15,10 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("860")]: {
       flexDirection: "column",
     },
+    [theme.breakpoints.down("xs")]: {
+      width: "100%",
+      padding: "0",
+    },
   },
   details: {
     display: "flex",
@@ -36,6 +40,10 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     justifyContent: "flex-start",
+    [theme.breakpoints.down("xs")]: {
+      width: "100%",
+      padding: "10px",
+    },
   },
   cover: {
     width: "50%",

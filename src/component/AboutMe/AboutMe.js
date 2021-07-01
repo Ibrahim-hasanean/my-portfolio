@@ -31,7 +31,7 @@ let useStyles = makeStyles((theme) => ({
     textAlign: "left",
     padding: "15px",
     [theme.breakpoints.down("sm")]: {
-      fontSize: "1.2rem",
+      fontSize: "1rem",
     },
   },
   aboutmeContainer: {

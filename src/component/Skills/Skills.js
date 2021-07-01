@@ -17,12 +17,15 @@ import angularimg from "../../assets/angular.png";
 import mongoimg from "../../assets/mongo.png";
 import mysqlimg from "../../assets/mysql.png";
 
-let useStyles = makeStyles(() => ({
+let useStyles = makeStyles((theme) => ({
   root: {
     padding: "100px 50px",
   },
   skillsContainer: {
     gap: "60px",
+    [theme.breakpoints.down("xs")]: {
+      justifyContent: "center",
+    },
   },
 }));
 const Skills = () => {

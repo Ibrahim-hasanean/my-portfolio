@@ -40,6 +40,10 @@ let useStyle = makeStyles((theme) => ({
   link: {
     color: "#000",
     fontWeight: "600",
+    wordBreak: "break-all",
+    [theme.breakpoints.down("xs")]: {
+      fontSize: "0.9rem",
+    },
   },
   contactForm: {
     padding: "60px 0px",

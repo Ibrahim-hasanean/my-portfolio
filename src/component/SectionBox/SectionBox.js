@@ -4,12 +4,20 @@ let useStyles = makeStyles((theme) => ({
   box: {
     padding: "10px",
     marginTop: "30px",
+    [theme.breakpoints.down("xs")]: {
+      width: "100%",
+      padding: "5px",
+    },
   },
 
   aboutmeContainer: {
     background: "white",
     padding: "30px",
     borderRadius: "30px",
+    [theme.breakpoints.down("xs")]: {
+      width: "100%",
+      padding: "5px",
+    },
   },
 }));
 const SectionBox = ({ children }) => {
