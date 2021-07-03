@@ -197,13 +197,16 @@ const Header = ({ setHideBar, hideBar }) => {
                 target="_blank"
                 rel="noreferrer"
                 href="https://twitter.com/himaa197"
-                alt="facebook"
+                alt="twitter"
               >
                 <TwitterIcon color="primary" />
               </a>
             </Paper>
             <Paper className={classes.icons}>
-              <a href="#a" alt="facebook">
+              <a
+                href="https://www.linkedin.com/in/ibrahim-hasaneen-4127421b4/"
+                alt="linked in"
+              >
                 <LinkedInIcon color="primary" />
               </a>
             </Paper>
