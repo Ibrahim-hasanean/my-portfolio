@@ -204,6 +204,8 @@ const Header = ({ setHideBar, hideBar }) => {
             </Paper>
             <Paper className={classes.icons}>
               <a
+                target="_blank"
+                rel="noreferrer"
                 href="https://www.linkedin.com/in/ibrahim-hasaneen-4127421b4/"
                 alt="linked in"
               >
