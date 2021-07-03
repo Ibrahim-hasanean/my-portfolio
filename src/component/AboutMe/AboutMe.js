@@ -44,13 +44,12 @@ const AboutMe = () => {
   let classes = useStyles();
   let Summary = (
     <Typography className={classes.aboutme} variant="h6" color="textPrimary">
-      I'm a full-stack web developer with a background in computer systems and
-      network infrastructure. My 5 years of IT experience has given me a strong
-      foundation for web development and building complex solutions. Recently, I
-      graduated from the <span className={classes.primary}> IUG college</span>.
-      I am passionate about coding and solving problems through code, and I am
-      excited to work alongside other amazing programmers and learn so much
-      more!
+      I'm a full-stack web developer with a background in Software engineering
+      and Databases Design. My 5 years of computer engineering experience has
+      given me a strong foundation for web development and building complex
+      solutions. Recently, I graduated from the IUG college. I am passionate
+      about coding and solving problems through code, and I am excited to work
+      alongside other amazing programmers and learn so much more!
     </Typography>
   );
   return (
